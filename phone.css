@@ -1,0 +1,11 @@
+@media screen and (max-width: 1150px) {
+    .searcharea{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #searchbox{
+        display: none;
+    }
+}

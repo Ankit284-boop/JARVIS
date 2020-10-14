@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    background-color: rgba(37, 24, 24, 0.9);
+    width: 100vw;
+}
+.navbar ul{
+    padding: 0px 0px;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color: #dc78e3;
+}
+.searcharea{
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+#searchbox{
+    border-radius: 4px;
+    padding: 8px 0px;
+    font-size: 16px;
+    outline: none;
+}
+.btn{
+    font-size: 16px;
+    padding: 8px 8px;
+    margin-top: 1px;
+    color: white;
+    border-radius: 4px;
+    background-color: #dc3545;
+    outline: none;
+    cursor: pointer;
+}
+.setool{
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+}
+.sinlo{
+    margin-right: 30px;
+}
